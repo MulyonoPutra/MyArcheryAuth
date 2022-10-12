@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -19,8 +23,53 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
-    background: black;
+    background: #afafaf;
   }
+}
+
+.forms {
+  flex: 1 0 0px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.title {
+  color: #0d47a1;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #545454;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.47rem 0.75rem;
+  font-size: .8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.card-shadow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px #0d47a1;
+  cursor: pointer;
 }
