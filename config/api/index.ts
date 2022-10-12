@@ -24,7 +24,6 @@ export default async function callAPI({ url, method, data, token }: CallAPIProps
     if (response.status > 300) {
         const res = {
             errors: true,
-            message: 'Unauthorized',
             data: null,
         };
         return res;
