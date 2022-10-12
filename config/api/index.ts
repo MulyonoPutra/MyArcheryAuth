@@ -25,6 +25,7 @@ export default async function callAPI({ url, method, data, token }: CallAPIProps
         const res = {
             errors: true,
             data: null,
+            message: ''
         };
         return res;
     }
