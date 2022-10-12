@@ -31,7 +31,7 @@ export default async function callAPI({ url, method, data, token }: CallAPIProps
 
     const { length } = Object.keys(response.data);
     const res = {
-        error: null,
+        errors: null,
         message: 'Success',
         data: length > 1 && response.data ,
     };
