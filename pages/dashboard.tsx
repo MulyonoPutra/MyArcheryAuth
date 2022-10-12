@@ -86,7 +86,7 @@ const Dashboard = () => {
                 <div className="px-8 pb-4">
                   <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam </h2>
                   <p className="text-gray-600 text-xs">
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Dashboard = () => {
 
                   <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam </h2>
                   <p className="text-gray-600 text-xs">
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ const Dashboard = () => {
 
                   <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam</h2>
                   <p className="text-gray-600 text-xs">
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
                   </p>
                 </div>
               </div>
@@ -283,7 +283,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div class="flex justify-center gap-4 mt-4">
+        <div className="flex justify-center gap-4 mt-4">
           <div>
             <div className="w-[730px] card-shadow max-w-sm rounded-lg border border-gray-200 bg-white shadow-lg h-[200px]">
               <div className="text-right p-4">
@@ -339,21 +339,21 @@ const Dashboard = () => {
               <div className="px-8 pb-4">
                 <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam</h2>
                 <p className="text-gray-600 text-xs">
-                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
                 </p>
               </div>
             </div></div>
           <div>
             <div className="w-[730px]  card-shadow max-w-sm rounded-lg border border-gray-200 bg-white shadow-lg h-[200px]">
-            <div className="text-right p-4">
-              <span className="text-xs text-gray-500 tracking-widest uppercase"> lorem ipsum dolor amet</span>
-            </div>
+              <div className="text-right p-4">
+                <span className="text-xs text-gray-500 tracking-widest uppercase"> lorem ipsum dolor amet</span>
+              </div>
 
-            <div className="flex items-center relative mb-10">
-              <div className="border-t border-gray-200 z-20 w-full"></div>
-              <div className="rounded-full bg-red-400 z-30 p-2 inline-block absolute mx-8">
-                <svg className="fill-current text-white inline-block h-10 w-10" height="72" viewBox="0 0 72 72" width="72" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M24.0624545,22.6532727 C26.4559091,22.6532727
+              <div className="flex items-center relative mb-10">
+                <div className="border-t border-gray-200 z-20 w-full"></div>
+                <div className="rounded-full bg-red-400 z-30 p-2 inline-block absolute mx-8">
+                  <svg className="fill-current text-white inline-block h-10 w-10" height="72" viewBox="0 0 72 72" width="72" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.0624545,22.6532727 C26.4559091,22.6532727
                    28.4607273,20.7771818 28.4607273,18.3185455
                    C28.4607273,15.8615455 26.4559091,13.986
                    24.0624545,13.986 C21.669,13.986 19.6644545,15.8615455
@@ -392,16 +392,16 @@ const Dashboard = () => {
                    C21.669,48.153 21.7982727,47.133 22.1217273,45.903 L26.9732727,26.6588182
                    L14.6841818,26.6588182 L13.1315455,32.3860909 L18.2410909,32.3860909 L14.9424545,45.8620909
                    L14.9424545,45.8620909 Z"></path>
-                </svg>
+                  </svg>
+                </div>
               </div>
-            </div>
-            <div className="px-8 pb-4">
-              <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam</h2>
-              <p className="text-gray-600 text-xs">
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-              </p>
-            </div>
-          </div></div>
+              <div className="px-8 pb-4">
+                <h2 className="text-gray-800 text-xl font-bold">Neque porro quisquam</h2>
+                <p className="text-gray-600 text-xs">
+                  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                </p>
+              </div>
+            </div></div>
         </div>
       </div>
 

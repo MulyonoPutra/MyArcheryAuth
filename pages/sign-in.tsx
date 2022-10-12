@@ -36,7 +36,7 @@ const SignIn = () => {
     };
     return (
         <>
-            <div class="flex flex-row">
+            <div className="flex flex-row">
                 <div className="bg-blue-600 hidden lg:block w-[200px] md:w-1/2 h-screen">
                     <img
                         src="/archery-bg.png"
@@ -45,7 +45,7 @@ const SignIn = () => {
                     />
                 </div>
                 <div className="forms">
-                    <div class="flex flex-col space-y-1">
+                    <div className="flex flex-col space-y-1">
                         <div>
                             <h3 className="title">Selamat Datang</h3>
                         </div>
@@ -56,42 +56,42 @@ const SignIn = () => {
                         </div>
                         <div>
                             <form>
-                                <div class="mb-6 mt-6">
+                                <div className="mb-6 mt-6">
                                     <input
                                         type="text"
-                                        class="form-control"
+                                        className="form-control"
                                         placeholder="Email address"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
 
-                                <div class="mb-6">
+                                <div className="mb-6">
                                     <input
                                         type="password"
-                                        class="form-control"
+                                        className="form-control"
                                         placeholder="Password"
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
                                     />
                                 </div>
 
-                                <div class="flex justify-between items-center mb-6">
-                                    <div class="form-group form-check">
+                                <div className="flex justify-between items-center mb-6">
+                                    <div className="form-group form-check">
                                         <input
                                             type="checkbox"
-                                            class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                            className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                             checked={checkbox} onChange={() => setCheckbox(!checkbox)}
                                         />
                                         <label
-                                            class="form-check-label inline-block text-gray-800"
+                                            className="form-check-label inline-block text-gray-800"
                                         >
                                             Ingat Saya
                                         </label>
                                     </div>
                                     <a
                                         href="#!"
-                                        class="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
+                                        className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
                                     >
                                         Lupa Sandi
                                     </a>
@@ -99,7 +99,7 @@ const SignIn = () => {
 
                                 <button
                                     type="button"
-                                    class="inline-block px-7 py-3 bg-[#0d47a1] text-white font-medium text-sm leading-snug uppercase rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                                    className="inline-block px-7 py-3 bg-[#0d47a1] text-white font-medium text-sm leading-snug uppercase rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                                     disabled={!enabled}
                                     onClick={onSubmit}
                                 >
